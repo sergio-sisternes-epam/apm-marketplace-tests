@@ -1,0 +1,6 @@
+name: composite-agent
+version: "1.0.0"
+description: "Composite agent that depends on base-skills via SHA pin"
+dependencies:
+  apm:
+    - sergio-sisternes-epam/apm-marketplace-tests/packages/base-skills#775293734fce5aa88edf964ea1d55256e5b5ece4
